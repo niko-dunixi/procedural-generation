@@ -13,8 +13,11 @@
 class SimpleRandom {
 public:
     SimpleRandom();
+
     SimpleRandom(uint seed);
+
     double nextDouble(double lower, double upper);
+
 private:
     std::mt19937 mt;
 };
