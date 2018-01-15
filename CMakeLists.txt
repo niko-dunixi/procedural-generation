@@ -19,6 +19,6 @@ set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 find_package(SFML 2.4 COMPONENTS system window graphics audio REQUIRED)
 include_directories(${SFML_INCLUDE_DIR})
 
-add_executable(procedural_generation main.cpp SimpleRandom.cpp SimpleRandom.h)
+add_executable(procedural_generation main.cpp SimpleRandom.cpp SimpleRandom.h Keys.h)
 #target_link_libraries(procedural_generation ${SDL2_LIBRARY})
 target_link_libraries(procedural_generation ${SFML_LIBRARIES})
