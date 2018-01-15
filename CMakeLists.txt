@@ -13,6 +13,9 @@ set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
 #find_package(SDL2_TTF REQUIRED)
 #include_directories(${SDL2_INCLUDE_DIR} ${SDL2_IMAGE_INCLUDE_DIR} ${SDL2_TTF_INCLUDE_DIR})
 #find_package(SFML 2 REQUIRED network audio graphics window system)
+
+# REFERENCES FOR POSTERITY:
+#   https://github.com/SFML/SFML/blob/master/cmake/Modules/FindSFML.cmake
 find_package(SFML 2.4 COMPONENTS system window graphics audio REQUIRED)
 include_directories(${SFML_INCLUDE_DIR})
 
