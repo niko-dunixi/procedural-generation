@@ -7,6 +7,9 @@
 
 #include <random>
 
+// creating random numbers for c++ 11
+// https://stackoverflow.com/a/19666713/1478636
+
 class SimpleRandom {
 public:
     SimpleRandom();
